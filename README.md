@@ -1,5 +1,8 @@
 # algo3tp2
 
+## Enunciado
+El enunciado de este proyecto está en el archivo "tp2.pdf"
+
 
 ## Compilacion rapida
 Para compilar corra los siguientes comandos, estos generan los 5 ejecutables en la subcarpeta instancias/ejX
