@@ -1,0 +1,11 @@
+basic_1.txt = 1
+basic_2.txt = 5
+basic_3.txt = 8
+basic_4.txt = 21
+bel1.txt = 1
+bridge_1.txt = 1
+bridgeLong.txt = 1
+chess.txt = 32 ((n*m)/2)
+EC_noColsnorRows.txt = 0
+EC_oneCol.txt = 2
+EC_oneRow.txt = 2
