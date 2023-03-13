@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.18)
+project(algo3tp2)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_FLAGS "-O3")
+add_executable(ej1 ej1.cpp)
+add_executable(ej2 ej2.cpp)
+add_executable(ej3 ej3.cpp)
+add_executable(ej4 ej4.cpp)
+add_executable(intervalosRandom intervalosRandom.cpp)
+
+set_target_properties(intervalosRandom PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/instancias/4/")
+set_target_properties(ej1 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/instancias/1/")
+set_target_properties(ej2 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/instancias/2/")
+set_target_properties(ej3 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/instancias/3/")
+set_target_properties(ej4 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/instancias/4/")
